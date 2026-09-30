@@ -17,15 +17,10 @@
   font-display: swap;
 }
 
-@theme {
-  --font-satoshi: "Satoshi", system-ui, sans-serif;
-  --font-heading: "Poppins", "Segoe UI", Roboto, sans-serif;
-}
-
 :root {
   --text: #242528;
   --text-black: #000000;
-  --text-white: #f5f5f6;
+  --text-body: #f5f5f6;
   --bg: #ffffff;
   --border: #ced0d3;
   --lime: #d4fb20;
@@ -48,6 +43,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@theme {
+  --font-satoshi: "Satoshi", system-ui, sans-serif;
+  --font-heading: "Poppins", "Segoe UI", Roboto, sans-serif;
+}
 /* Global container */
 .container {
   width: 100%;
