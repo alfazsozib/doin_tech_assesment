@@ -16,11 +16,11 @@ function CreateCoursesSection() {
 
   return (
     <section className='w-full py-16 sm:py-24 relative overflow-hidden bg-white border-t border-gray-100'>
-      {/* Top Right Blue Radial Glow */}
+      {/* Bottom Right Blue Radial Glow */}
       <div
-        className='absolute bottom-0 left-0 -translate-y-1/3 translate-x-1/3 w-[600px] sm:w-[900px] h-[600px] sm:h-[900px] rounded-full pointer-events-none select-none z-0'
+        className='absolute bottom-0 right-0 translate-y-1/3 translate-x-1/3 w-[600px] sm:w-[900px] h-[600px] sm:h-[900px] rounded-full pointer-events-none select-none z-0'
         style={{
-          background: 'radial-gradient(circle at 50% 50%, rgba(0, 60, 226, 0.20) 0%, rgba(0, 60, 226, 0.03) 53%, rgba(190, 190, 190, 0) 75%, rgba(0, 60, 226, 0) 100%)'
+          background: 'radial-gradient(circle at 50% 50%, rgba(0, 60, 226, 0.22) 0%, rgba(0, 60, 226, 0.03) 53%, rgba(190, 190, 190, 0) 75%, rgba(0, 60, 226, 0) 100%)'
         }}
       />
 
@@ -56,11 +56,10 @@ function CreateCoursesSection() {
             />
 
             {/* Lime Spine Shape */}
-
             <img
               src={limeSpineShape}
               alt="Lime Spine"
-              className='absolute -right-48 sm:-right-6 top-24 sm:top-42 z-50 w-16 sm:w-[216px] pointer-events-none select-none animate-pulse'
+              className='absolute -right-40 sm:right-26 top-18 sm:top-14 z-50 w-16 sm:w-[216px] rotate-38 pointer-events-none select-none animate-pulse'
             />
 
 
