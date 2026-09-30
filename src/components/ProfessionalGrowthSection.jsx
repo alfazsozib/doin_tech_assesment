@@ -25,9 +25,9 @@ function ProfessionalGrowthSection() {
     <section className='w-full py-16 sm:py-24 relative overflow-hidden bg-white'>
 
       <div
-        className='absolute -top-10 -right-10 sm:-top-80 sm:-right-28 w-[900px] sm:w-[900px] h-[450px] sm:h-[600px] rounded-full pointer-events-none select-none z-0'
+        className='absolute top-0 right-0 -translate-y-1/3 translate-x-1/3 w-[600px] sm:w-[900px] h-[600px] sm:h-[900px] rounded-full pointer-events-none select-none z-0'
         style={{
-          background: 'radial-gradient(circle at 50% 50%, rgba(0, 59, 226, 0.40) 0%, rgba(0, 59, 226, 0.23) 53%, rgba(0, 59, 226, 0.06) 75%, rgba(0, 59, 226, 0) 100%)'
+          background: 'radial-gradient(circle at 50% 50%, rgba(0, 60, 226, 0.22) 0%, rgba(0, 60, 226, 0.03) 53%, rgba(190, 190, 190, 0) 75%, rgba(0, 60, 226, 0) 100%)'
         }}
       />
 
