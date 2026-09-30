@@ -69,12 +69,12 @@ function Hero() {
 
           <div className='relative max-w-3xl mx-auto mt-12 flex justify-center items-end min-h-[380px] sm:min-h-[460px]'>
             <div className='absolute bottom-[-900px] w-[1149px] h-[1149px] rounded-full border-[320px] border-[#CBFC01] pointer-events-none select-none z-0'></div>
-
+            <div className='absolute bottom-[-760px] w-[814px] h-[814px] rounded-full border-[320px] border-primary-blue pointer-events-none select-none z-10'></div>
             <div className='relative z-10 flex justify-center items-end'>
               <img
                 src={heroMan}
                 alt="Student"
-                className='w-[340px] sm:w-[420px] object-contain drop-shadow-md'
+                className='w-[380px] sm:w-[480px]'
               />
 
               <img
