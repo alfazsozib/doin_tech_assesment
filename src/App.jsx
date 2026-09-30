@@ -6,6 +6,7 @@ import CourseSection from './components/CourseSection'
 import LearningPathsSection from './components/LearningPathsSection'
 import ProfessionalGrowthSection from './components/ProfessionalGrowthSection'
 import CreateCoursesSection from './components/CreateCoursesSection'
+import ReviewsSection from './components/ReviewsSection'
 import CtaSection from './components/CtaSection'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <LearningPathsSection />
     <ProfessionalGrowthSection />
     <CreateCoursesSection />
+    <ReviewsSection />
     <CtaSection />
     </>
   )
