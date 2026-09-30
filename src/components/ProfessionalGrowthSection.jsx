@@ -53,7 +53,7 @@ function ProfessionalGrowthSection() {
             {/* Statistics Row */}
             <div className='relative z-10 flex items-center gap-8 sm:gap-12 pt-2'>
               <div>
-                <h3 className='text-3xl sm:text-4xl font-bold text-primary-blue font-satoshi tracking-tight'>
+                <h3 className='text-3xl sm:text-4xl font-bold text-primary-blue font-heading font-medium tracking-tight'>
                   12K
                 </h3>
                 <p className='text-sm text-gray-500 font-satoshi mt-1 font-medium'>
@@ -62,7 +62,7 @@ function ProfessionalGrowthSection() {
               </div>
 
               <div>
-                <h3 className='text-3xl sm:text-4xl font-bold text-primary-blue font-satoshi tracking-tight'>
+                <h3 className='text-3xl sm:text-4xl font-bold text-primary-blue font-heading font-medium tracking-tight'>
                   70+
                 </h3>
                 <p className='text-sm text-gray-500 font-satoshi mt-1 font-medium'>
@@ -71,7 +71,7 @@ function ProfessionalGrowthSection() {
               </div>
 
               <div>
-                <h3 className='text-3xl sm:text-4xl font-bold text-primary-blue font-satoshi tracking-tight'>
+                <h3 className='text-3xl sm:text-4xl font-bold text-primary-blue font-heading font-medium tracking-tight'>
                   16
                 </h3>
                 <p className='text-sm text-gray-500 font-satoshi mt-1 font-medium'>
