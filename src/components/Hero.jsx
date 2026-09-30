@@ -33,67 +33,70 @@ function Hero() {
           backgroundSize: '64px 64px'
         }}
       >
-        <img src={limeLeft} alt="" className='absolute top-6 left-4 w-28 md:w-36 pointer-events-none select-none z-10' />
-        <img src={whiteSpine} alt="" className='absolute top-[28%] left-12 md:left-24 w-12 md:w-16 pointer-events-none select-none z-10' />
-        <img src={circleShape} alt="" className='absolute top-130 left-16 md:left-[280px] w-20 md:w-[344px] pointer-events-none select-none z-50' />
+        <img src={limeLeft} alt="" className='absolute top-50 left-0 w-28 md:w-[150px] lg:w-[250px] pointer-events-none select-none z-10' />
+        <img src={limeCone} alt="" className='absolute top-50 right-0 w-28 md:w-[150px] lg:w-[250px] pointer-events-none select-none z-10' />
 
-        <img src={limeCone} alt="" className='absolute top-8 right-6 md:right-12 w-28 md:w-36 pointer-events-none select-none z-10' />
-        <img src={whiteCone} alt="" className='absolute top-[28%] right-16 md:right-28 w-12 md:w-16 pointer-events-none select-none z-10' />
-        <img src={whiteSpine2} alt="" className='absolute bottom-8 right-8 md:right-75 w-20 md:w-[300px] -rotate-12 pointer-events-none select-none z-50' />
+        <div className='max-w-[1440px] mx-auto relative'>
+          <img src={whiteSpine} alt="" className='absolute top-[28%] left-1/2 -translate-x-[580px] w-12 md:w-16 pointer-events-none select-none z-10' />
+          <img src={circleShape} alt="" className='absolute top-130 left-1/2 -translate-x-[670px] w-20 md:w-[344px] pointer-events-none select-none z-50' />
 
-        <Navbar />
+          <img src={whiteCone} alt="" className='absolute top-[28%] left-1/2 translate-x-[520px] w-12 md:w-16 pointer-events-none select-none z-10' />
+          <img src={whiteSpine2} alt="" className='absolute bottom-8 left-1/2 translate-x-[360px] w-20 md:w-[300px] -rotate-12 pointer-events-none select-none z-50' />
 
-        <div className='container relative z-20 pt-8 pb-0 text-center'>
-          <div className='max-w-3xl mx-auto px-4'>
-            <h1 className='text-text-heading font-heading text-4xl sm:text-5xl md:text-[64px] font-semibold leading-[1.15] tracking-tight'>
-              Get Access to Hundreds Courses Available
-            </h1>
-            <p className='font-satoshi text-text-body text-base sm:text-lg mt-4 max-w-xl mx-auto opacity-90 font-normal'>
-              Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses.
-            </p>
-          </div>
+          <Navbar />
 
-          <div className='mt-8 max-w-md mx-auto relative flex items-center bg-white rounded-full p-1.5 shadow-md'>
-            <div className='pl-4 flex items-center gap-3 flex-1'>
-              <img src={searchIcon} alt="search" className='w-4 h-4 opacity-60' />
-              <input
-                type="text"
-                placeholder="Search for courses..."
-                className='w-full outline-none text-black font-satoshi text-sm bg-transparent placeholder:text-gray-400'
-              />
+          <div className='container relative z-20 pt-8 pb-0 text-center'>
+            <div className='max-w-3xl mx-auto px-4'>
+              <h1 className='text-text-heading font-heading text-4xl sm:text-5xl md:text-[64px] font-semibold leading-[1.15] tracking-tight'>
+                Get Access to Hundreds Courses Available
+              </h1>
+              <p className='font-satoshi text-text-body text-base sm:text-lg mt-4 max-w-xl mx-auto opacity-90 font-normal'>
+                Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses.
+              </p>
             </div>
-            <button className='bg-lime text-black font-satoshi font-semibold px-6 py-2.5 rounded-full text-sm hover:opacity-90 transition-opacity cursor-pointer'>
-              Search
-            </button>
-          </div>
 
-          <div className='relative max-w-3xl mx-auto -mt-20 flex justify-center items-end min-h-[420px] sm:min-h-[500px] pb-0'>
-            <div className='absolute bottom-[-780px] left-1/2 -translate-x-1/2 w-[1149px] h-[1149px] rounded-full border-[320px] border-[#CBFC01] pointer-events-none select-none z-0'></div>
-            <div className='absolute bottom-[-620px] left-1/2 -translate-x-1/2 w-[678px] h-[678px] rounded-full border-[320px] border-primary-blue pointer-events-none select-none z-10'></div>
-            <div className='relative z-10 flex justify-center items-end'>
-              <img
-                src={heroMan}
-                alt="Student"
-                className='w-[425px] sm:w-[540px] md:w-[600px] block align-bottom translate-x-6 sm:translate-x-6'
-              />
+            <div className='mt-8 max-w-md mx-auto relative flex items-center bg-white rounded-full p-1.5 shadow-md'>
+              <div className='pl-4 flex items-center gap-3 flex-1'>
+                <img src={searchIcon} alt="search" className='w-4 h-4 opacity-60' />
+                <input
+                  type="text"
+                  placeholder="Search for courses..."
+                  className='w-full outline-none text-black font-satoshi text-sm bg-transparent placeholder:text-gray-400'
+                />
+              </div>
+              <button className='bg-lime text-black font-satoshi font-semibold px-6 py-2.5 rounded-full text-sm hover:opacity-90 transition-opacity cursor-pointer'>
+                Search
+              </button>
+            </div>
 
-              <img
-                src={ui_uxCard}
-                alt="UI UX Design"
-                className='absolute top-25 left-[250px] sm:left-0 z-20 w-36 sm:w-48 shadow-lg rounded-xl pointer-events-none'
-              />
+            <div className='relative max-w-3xl mx-auto -mt-20 flex justify-center items-end min-h-[420px] sm:min-h-[500px] pb-0'>
+              <div className='absolute bottom-[-780px] left-1/2 -translate-x-1/2 w-[1149px] h-[1149px] rounded-full border-[320px] border-[#CBFC01] pointer-events-none select-none z-0'></div>
+              <div className='absolute bottom-[-620px] left-1/2 -translate-x-1/2 w-[678px] h-[678px] rounded-full border-[320px] border-primary-blue pointer-events-none select-none z-10'></div>
+              <div className='relative z-10 flex justify-center items-end'>
+                <img
+                  src={heroMan}
+                  alt="Student"
+                  className='w-[425px] sm:w-[540px] md:w-[600px] block align-bottom translate-x-6 sm:translate-x-6'
+                />
 
-              <img
-                src={learningProgramFrame}
-                alt="Winning Rate 55%"
-                className='absolute top-24 -right-20 sm:-right-0 z-20 w-40 sm:w-54 shadow-lg rounded-xl pointer-events-none'
-              />
+                <img
+                  src={ui_uxCard}
+                  alt="UI UX Design"
+                  className='absolute top-25 left-[250px] sm:left-0 z-20 w-36 sm:w-48 shadow-lg rounded-xl pointer-events-none'
+                />
 
-              <img
-                src={happyStudentsFrame}
-                alt="Happy Students"
-                className='absolute bottom-16 -left-10 sm:-left-14 z-20 w-44 sm:w-56 shadow-lg rounded-xl pointer-events-none'
-              />
+                <img
+                  src={learningProgramFrame}
+                  alt="Winning Rate 55%"
+                  className='absolute top-24 -right-20 sm:-right-0 z-20 w-40 sm:w-54 shadow-lg rounded-xl pointer-events-none'
+                />
+
+                <img
+                  src={happyStudentsFrame}
+                  alt="Happy Students"
+                  className='absolute bottom-16 -left-10 sm:-left-14 z-20 w-44 sm:w-56 shadow-lg rounded-xl pointer-events-none'
+                />
+              </div>
             </div>
           </div>
         </div>
