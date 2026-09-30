@@ -136,8 +136,8 @@ function CourseSection() {
                 key={category}
                 onClick={() => setActiveCategory(category)}
                 className={`px-4 py-2 rounded-full text-sm font-satoshi font-medium transition-all duration-200 cursor-pointer ${isActive
-                    ? 'bg-lime text-black shadow-xs font-semibold'
-                    : 'bg-[#F3F4F6] text-gray-700 hover:bg-gray-200'
+                  ? 'bg-lime text-black shadow-xs font-semibold'
+                  : 'bg-[#F3F4F6] text-gray-700 hover:bg-gray-200'
                   } ${category === '+ More' ? 'text-primary-blue hover:text-blue-700' : ''}`}
               >
                 {category}

@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import CourseSection from './components/CourseSection'
+import LearningPathsSection from './components/LearningPathsSection'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     {/* <Navbar /> */}
     <Hero />
     <CourseSection />
+    <LearningPathsSection />
     </>
   )
 }
