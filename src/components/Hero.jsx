@@ -7,6 +7,7 @@ import learningProgramFrame from '../assets/images/learning-program-frame.png'
 import yearToDate from '../assets/images/YearToDate.png'
 import happyStudentsFrame from '../assets/images/happy-students-frame.png'
 import searchIcon from '../assets/icons/Style=Outlined.png'
+import ui_uxCard from "../assets/images/ui_ux_card.png"
 
 import limeLeft from '../assets/icons/lime-left.png'
 import circleShape from '../assets/icons/circle.png'
@@ -67,25 +68,33 @@ function Hero() {
           </div>
 
           <div className='relative max-w-3xl mx-auto mt-12 flex justify-center items-end min-h-[380px] sm:min-h-[460px]'>
-            <div className='absolute bottom-[-900px] w-[420px] sm:w-[500px] pointer-events-none select-none z-0 w-[1149px] h-[1149px] rounded-full border-[320px] border-[#CBFC01]'></div>
+            <div className='absolute bottom-[-900px] w-[1149px] h-[1149px] rounded-full border-[320px] border-[#CBFC01] pointer-events-none select-none z-0'></div>
 
-            <img
-              src={learningProgramFrame}
-              alt="UI UX Design"
-              className='absolute top-4 right-5 sm:left-12 z-20 w-40 sm:w-52 shadow-lg rounded-xl'
-            />
+            <div className='relative z-10 flex justify-center items-end'>
+              <img
+                src={heroMan}
+                alt="Student"
+                className='w-[340px] sm:w-[420px] object-contain drop-shadow-md'
+              />
 
-            <img
-              src={happyStudentsFrame}
-              alt="Happy Students"
-              className='absolute bottom-8 left-0 sm:left-8 z-20 w-44 sm:w-56 shadow-lg rounded-xl'
-            />
+              <img
+                src={ui_uxCard}
+                alt="UI UX Design"
+                className='absolute top-2 -left-10 sm:-left-24 z-20 w-36 sm:w-48 shadow-lg rounded-xl pointer-events-none'
+              />
 
-            <img
-              src={heroMan}
-              alt="Student"
-              className='relative z-10 w-[340px] sm:w-[420px] object-contain drop-shadow-md'
-            />
+              <img
+                src={learningProgramFrame}
+                alt="Winning Rate 55%"
+                className='absolute top-6 -right-10 sm:-right-20 z-20 w-36 sm:w-48 shadow-lg rounded-xl pointer-events-none'
+              />
+
+              <img
+                src={happyStudentsFrame}
+                alt="Happy Students"
+                className='absolute bottom-10 -left-14 sm:-left-28 z-20 w-40 sm:w-52 shadow-lg rounded-xl pointer-events-none'
+              />
+            </div>
           </div>
         </div>
       </div>
