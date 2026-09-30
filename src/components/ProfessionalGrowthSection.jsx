@@ -23,9 +23,9 @@ function ProfessionalGrowthSection() {
 
   return (
     <section className='w-full py-16 sm:py-24 relative overflow-hidden bg-white'>
-      {/* Bottom Left Lime Radial Glow */}
+      {/* Top Left Lime Radial Glow */}
       <div
-        className='absolute bottom-0 left-0 translate-y-1/3 -translate-x-1/3 w-[600px] sm:w-[900px] h-[600px] sm:h-[900px] rounded-full pointer-events-none select-none z-0'
+        className='absolute top-0 left-70 -translate-y-1/2 -translate-x-1/3 w-[600px] sm:w-[900px] h-[600px] sm:h-[900px] rounded-full pointer-events-none select-none z-0'
         style={{
           background: 'radial-gradient(circle at 50% 50%, rgba(202, 252, 1, 0.57) 0%, rgba(203, 252, 1, 0.23) 53%, rgba(203, 252, 1, 0.06) 75%, rgba(203, 252, 1, 0) 100%)'
         }}
