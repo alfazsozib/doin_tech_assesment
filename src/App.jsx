@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import CourseSection from './components/CourseSection'
 import LearningPathsSection from './components/LearningPathsSection'
 import ProfessionalGrowthSection from './components/ProfessionalGrowthSection'
+import CreateCoursesSection from './components/CreateCoursesSection'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <CourseSection />
     <LearningPathsSection />
     <ProfessionalGrowthSection />
+    <CreateCoursesSection />
     </>
   )
 }

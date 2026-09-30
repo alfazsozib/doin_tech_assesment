@@ -23,9 +23,17 @@ function ProfessionalGrowthSection() {
 
   return (
     <section className='w-full py-16 sm:py-24 relative overflow-hidden bg-white'>
-
+      {/* Bottom Left Lime Radial Glow */}
       <div
-        className='absolute top-0 right-0 -translate-y-1/3 translate-x-1/3 w-[600px] sm:w-[900px] h-[600px] sm:h-[900px] rounded-full pointer-events-none select-none z-0'
+        className='absolute bottom-0 left-0 translate-y-1/3 -translate-x-1/3 w-[600px] sm:w-[900px] h-[600px] sm:h-[900px] rounded-full pointer-events-none select-none z-0'
+        style={{
+          background: 'radial-gradient(circle at 50% 50%, rgba(202, 252, 1, 0.57) 0%, rgba(203, 252, 1, 0.23) 53%, rgba(203, 252, 1, 0.06) 75%, rgba(203, 252, 1, 0) 100%)'
+        }}
+      />
+
+      {/* Bottom Right Blue Radial Glow */}
+      <div
+        className='absolute bottom-0 right-0 translate-y-1/3 translate-x-1/3 w-[600px] sm:w-[900px] h-[600px] sm:h-[900px] rounded-full pointer-events-none select-none z-0'
         style={{
           background: 'radial-gradient(circle at 50% 50%, rgba(0, 60, 226, 0.22) 0%, rgba(0, 60, 226, 0.03) 53%, rgba(190, 190, 190, 0) 75%, rgba(0, 60, 226, 0) 100%)'
         }}
@@ -34,13 +42,6 @@ function ProfessionalGrowthSection() {
       <div className='container relative z-10'>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center'>
           <div className='max-w-xl mx-auto lg:mx-0 relative'>
-            {/* Radial Gradient Glow centered directly behind heading */}
-            <div
-              className='absolute -top-10 -left-10 sm:-top-80 sm:-left-28 w-[1137px] sm:w-[900px] h-[450px] sm:h-[600px] rounded-full pointer-events-none select-none z-0'
-              style={{
-                background: 'radial-gradient(circle at 50% 50%, rgba(202, 252, 1, 0.57) 0%, rgba(203, 252, 1, 0.23) 53%, rgba(203, 252, 1, 0.06) 75%, rgba(203, 252, 1, 0) 100%)'
-              }}
-            />
 
             <h2 className='relative z-10 text-3xl sm:text-4xl md:text-[46px] font-bold font-heading text-black tracking-tight leading-[1.2] mb-6'>
               Your Path to Professional Growth Starts Here!
