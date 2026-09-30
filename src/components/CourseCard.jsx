@@ -32,10 +32,10 @@ function CourseCard({ course }) {
           />
 
           {/* Bottom Stats Overlay Bar */}
-          <div className='absolute bottom-2.5 left-2.5 right-2.5 bg-white/80 backdrop-blur-md rounded-full px-3 py-1.5 flex items-center justify-between text-[11px] font-medium text-gray-700 shadow-xs'>
-            <span>{lessons}</span>
-            <span>{duration}</span>
-            <span>{comments}</span>
+          <div className='absolute flex justify-between gap-2 bottom-2.5 left-2.5 right-2.5 '>
+            <span className='backdrop-blur-md rounded-full px-3 py-1.5 text-[11px] font-medium  shadow-xs text-gray-700 bg-white/80'>{lessons}</span>
+            <span className='backdrop-blur-md rounded-full px-3 py-1.5 text-[11px] font-medium  shadow-xs text-gray-700 bg-white/80'>{duration}</span>
+            <span className='backdrop-blur-md rounded-full px-3 py-1.5 text-[11px] font-medium  shadow-xs text-gray-700 bg-white/80'>{comments}</span>
           </div>
         </div>
 
@@ -58,7 +58,7 @@ function CourseCard({ course }) {
         </p>
 
         {/* Level Badge & Enrolled Avatars */}
-        <div className='flex items-center justify-between mt-3'>
+        <div className='flex items-center gap-4 mt-3'>
           <div className='flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#F3F4F6] text-xs font-medium text-gray-700'>
             <svg className="w-3.5 h-3.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />

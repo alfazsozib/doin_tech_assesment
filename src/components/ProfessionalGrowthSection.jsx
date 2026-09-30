@@ -81,10 +81,11 @@ function ProfessionalGrowthSection() {
             </div>
           </div>
 
-          {/* Right Column: Visual Image Layering */}
+          {/* Right Column*/}
           <div className='relative flex items-center justify-center lg:justify-end min-h-[440px] sm:min-h-[500px] mt-4 lg:mt-0'>
+
             {/* Background Course Card */}
-            <div className='absolute left-0 sm:left-4 top-2 sm:top-6 w-[290px] sm:w-[330px] z-10 shadow-lg rounded-[24px] pointer-events-none select-none opacity-95 transform -rotate-1'>
+            <div className='absolute left-0 sm:left-2 top-2 sm:top-6 w-[290px] sm:w-[377px] z-10 shadow-lg rounded-[24px] pointer-events-none select-none opacity-95 transform -rotate-1'>
               <CourseCard course={bgCardData} />
             </div>
 
@@ -99,7 +100,7 @@ function ProfessionalGrowthSection() {
             <img
               src={heroManImage}
               alt="Hero Student"
-              className='relative z-20 w-[300px] sm:w-[380px] md:w-[420px] translate-x-6 sm:translate-x-10 translate-y-6 sm:translate-y-8 object-contain drop-shadow-2xl'
+              className='relative z-20 w-[300px] sm:w-[578px] md:w-[578px] translate-x-6 sm:translate-x-10 translate-y-6 sm:translate-y-8 object-contain drop-shadow-2xl'
             />
 
             {/* Learning Progress Frame 55% */}
