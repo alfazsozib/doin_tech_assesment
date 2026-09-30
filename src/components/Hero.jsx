@@ -86,7 +86,7 @@ function Hero() {
               <img
                 src={learningProgramFrame}
                 alt="Winning Rate 55%"
-                className='absolute top-16 -right-50 sm:-right-44 z-20 w-40 sm:w-54 shadow-lg rounded-xl pointer-events-none'
+                className='absolute top-24 -right-20 sm:-right-0 z-20 w-40 sm:w-54 shadow-lg rounded-xl pointer-events-none'
               />
 
               <img
