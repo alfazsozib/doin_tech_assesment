@@ -23,27 +23,35 @@ function ProfessionalGrowthSection() {
 
   return (
     <section className='w-full py-16 sm:py-24 relative overflow-hidden bg-white'>
-      {/* Top Radial Gradient Overlay matching Figma spec (#CBFC01: 0%@100%, 53%@23%, 75%@6%, 100%@0%) */}
+
       <div
-        className='absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[1440px] h-[350px] sm:h-[450px] pointer-events-none select-none z-0'
+        className='absolute -top-10 -right-10 sm:-top-80 sm:-right-28 w-[900px] sm:w-[900px] h-[450px] sm:h-[600px] rounded-full pointer-events-none select-none z-0'
         style={{
-          background: 'radial-gradient(60% 60% at 50% 0%, rgba(203, 252, 1, 0.7) 0%, rgba(203, 252, 1, 0.23) 53%, rgba(203, 252, 1, 0.06) 75%, rgba(203, 252, 1, 0) 100%)'
+          background: 'radial-gradient(circle at 50% 50%, rgba(0, 59, 226, 0.40) 0%, rgba(0, 59, 226, 0.23) 53%, rgba(0, 59, 226, 0.06) 75%, rgba(0, 59, 226, 0) 100%)'
         }}
       />
+
       <div className='container relative z-10'>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center'>
-          {/* Left Column: Text & Statistics */}
-          <div className='max-w-xl mx-auto lg:mx-0'>
-            <h2 className='text-3xl sm:text-4xl md:text-[46px] font-bold font-heading text-black tracking-tight leading-[1.2] mb-6'>
+          <div className='max-w-xl mx-auto lg:mx-0 relative'>
+            {/* Radial Gradient Glow centered directly behind heading */}
+            <div
+              className='absolute -top-10 -left-10 sm:-top-80 sm:-left-28 w-[1137px] sm:w-[900px] h-[450px] sm:h-[600px] rounded-full pointer-events-none select-none z-0'
+              style={{
+                background: 'radial-gradient(circle at 50% 50%, rgba(202, 252, 1, 0.57) 0%, rgba(203, 252, 1, 0.23) 53%, rgba(203, 252, 1, 0.06) 75%, rgba(203, 252, 1, 0) 100%)'
+              }}
+            />
+
+            <h2 className='relative z-10 text-3xl sm:text-4xl md:text-[46px] font-bold font-heading text-black tracking-tight leading-[1.2] mb-6'>
               Your Path to Professional Growth Starts Here!
             </h2>
 
-            <p className='font-satoshi text-gray-600 text-base sm:text-lg leading-relaxed mb-10 opacity-90'>
+            <p className='relative z-10 font-satoshi text-gray-600 text-base sm:text-lg leading-relaxed mb-10 opacity-90'>
               Explore our curated selection of courses tailored to enhance your capabilities and accelerate your career journey. Whether you are looking to sharpen specific skills, gain industry expertise, or embark on a new career path entirely, we have the resources you need.
             </p>
 
             {/* Statistics Row */}
-            <div className='flex items-center gap-8 sm:gap-12 pt-2'>
+            <div className='relative z-10 flex items-center gap-8 sm:gap-12 pt-2'>
               <div>
                 <h3 className='text-3xl sm:text-4xl font-bold text-primary-blue font-satoshi tracking-tight'>
                   12K
