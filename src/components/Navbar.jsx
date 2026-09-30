@@ -4,29 +4,27 @@ import cart from "../assets/icons/cart.png"
 
 function Navbar() {
   return (
-    <div>
-        <nav className='container inline-flex h-30 px-30.5 pt-8.75 pb-11.75 justify-center items-end gap-[321.5px] font-satoshi text-[#F5F5F6]'>
-            <div>
-                <img className='w-33.5' src={logo} alt="header_logo" />
-            </div>
-            <div className='navitems'>
-                 <div className='flex gap-6'>
-                    <Link to="/about">About</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
-                </div>
-            </div>
-             <div className='top-right-cart flex gap-6'>
-                <div className='flex gap-6'>
-                    <Link to={"signin"}>Sign In</Link>
-                    <Link to={"signin"}>Join Us</Link>
-                </div> 
-                <div>
-                    <img src={cart} alt="cart icon" />
-                </div>
-            </div>
-        </nav>
-    </div>
+    <nav className='container flex items-center justify-between py-7 font-satoshi text-text-body text-[16px] relative z-30'>
+      <div className='flex items-center'>
+        <img className='w-34 object-contain' src={logo} alt="header_logo" />
+      </div>
+
+      <div className='flex items-center gap-8 font-medium'>
+        <Link to="/" className='hover:text-lime transition-colors'>Home</Link>
+        <Link to="/courses" className='hover:text-lime transition-colors'>Courses</Link>
+        <Link to="/stories" className='hover:text-lime transition-colors'>Stories</Link>
+      </div>
+
+      <div className='flex items-center gap-8 font-medium'>
+        <div className='flex items-center gap-6'>
+          <Link to="/signin" className='hover:text-lime transition-colors'>Sign In</Link>
+          <Link to="/join" className='hover:text-lime transition-colors'>Join Us</Link>
+        </div>
+        <div className='cursor-pointer hover:opacity-80 transition-opacity'>
+          <img src={cart} alt="cart icon" className='w-6 h-6' />
+        </div>
+      </div>
+    </nav>
   )
 }
 
