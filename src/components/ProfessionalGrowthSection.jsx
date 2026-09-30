@@ -3,7 +3,7 @@ import CourseCard from './CourseCard'
 
 import heroManImage from '../assets/images/Image.png'
 import learningProgressFrame from '../assets/images/learning-program-frame.png'
-import limeSpineShape from '../assets/icons/Group 4.png'
+import limeSpineShape from '../assets/icons/lime_spine.png'
 
 function ProfessionalGrowthSection() {
   const bgCardData = {
@@ -93,7 +93,7 @@ function ProfessionalGrowthSection() {
             <img
               src={limeSpineShape}
               alt="Lime Spine"
-              className='absolute right-0 sm:right-2 top-8 sm:top-12 z-30 w-16 sm:w-22 pointer-events-none select-none animate-pulse'
+              className='absolute -right-48 sm:-right-6 top-24 sm:top-42 z-50 w-16 sm:w-[216px] pointer-events-none select-none animate-pulse'
             />
 
             {/* Hero Man Image with Headphones & Laptop */}
