@@ -1,0 +1,110 @@
+import React from 'react'
+import CourseCard from './CourseCard'
+
+import heroManImage from '../assets/images/Image.png'
+import learningProgressFrame from '../assets/images/learning-program-frame.png'
+import limeSpineShape from '../assets/icons/Group 4.png'
+
+function ProfessionalGrowthSection() {
+  const bgCardData = {
+    id: 99,
+    title: 'Learn Figma from Basic',
+    instructor: 'purepearl studio',
+    rating: 4.5,
+    lessons: '17 Lessons',
+    duration: '2 hours 16 mins',
+    comments: '59 Comments',
+    level: 'Beginner',
+    price: '$25',
+    period: '/lifetime',
+    enrolledCount: '26+',
+    image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=800&q=80'
+  }
+
+  return (
+    <section className='w-full py-16 sm:py-24 relative overflow-hidden bg-white'>
+      {/* Top Radial Gradient Overlay matching Figma spec (#CBFC01: 0%@100%, 53%@23%, 75%@6%, 100%@0%) */}
+      <div
+        className='absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[1440px] h-[350px] sm:h-[450px] pointer-events-none select-none z-0'
+        style={{
+          background: 'radial-gradient(60% 60% at 50% 0%, rgba(203, 252, 1, 0.7) 0%, rgba(203, 252, 1, 0.23) 53%, rgba(203, 252, 1, 0.06) 75%, rgba(203, 252, 1, 0) 100%)'
+        }}
+      />
+      <div className='container relative z-10'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center'>
+          {/* Left Column: Text & Statistics */}
+          <div className='max-w-xl mx-auto lg:mx-0'>
+            <h2 className='text-3xl sm:text-4xl md:text-[46px] font-bold font-heading text-black tracking-tight leading-[1.2] mb-6'>
+              Your Path to Professional Growth Starts Here!
+            </h2>
+
+            <p className='font-satoshi text-gray-600 text-base sm:text-lg leading-relaxed mb-10 opacity-90'>
+              Explore our curated selection of courses tailored to enhance your capabilities and accelerate your career journey. Whether you are looking to sharpen specific skills, gain industry expertise, or embark on a new career path entirely, we have the resources you need.
+            </p>
+
+            {/* Statistics Row */}
+            <div className='flex items-center gap-8 sm:gap-12 pt-2'>
+              <div>
+                <h3 className='text-3xl sm:text-4xl font-bold text-primary-blue font-satoshi tracking-tight'>
+                  12K
+                </h3>
+                <p className='text-sm text-gray-500 font-satoshi mt-1 font-medium'>
+                  Students
+                </p>
+              </div>
+
+              <div>
+                <h3 className='text-3xl sm:text-4xl font-bold text-primary-blue font-satoshi tracking-tight'>
+                  70+
+                </h3>
+                <p className='text-sm text-gray-500 font-satoshi mt-1 font-medium'>
+                  Courses
+                </p>
+              </div>
+
+              <div>
+                <h3 className='text-3xl sm:text-4xl font-bold text-primary-blue font-satoshi tracking-tight'>
+                  16
+                </h3>
+                <p className='text-sm text-gray-500 font-satoshi mt-1 font-medium'>
+                  Creators
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Column: Visual Image Layering */}
+          <div className='relative flex items-center justify-center lg:justify-end min-h-[440px] sm:min-h-[500px] mt-4 lg:mt-0'>
+            {/* Background Course Card */}
+            <div className='absolute left-0 sm:left-4 top-2 sm:top-6 w-[290px] sm:w-[330px] z-10 shadow-lg rounded-[24px] pointer-events-none select-none opacity-95 transform -rotate-1'>
+              <CourseCard course={bgCardData} />
+            </div>
+
+            {/* Lime Spine Spiral Shape */}
+            <img
+              src={limeSpineShape}
+              alt="Lime Spine"
+              className='absolute right-0 sm:right-2 top-8 sm:top-12 z-30 w-16 sm:w-22 pointer-events-none select-none animate-pulse'
+            />
+
+            {/* Hero Man Image with Headphones & Laptop */}
+            <img
+              src={heroManImage}
+              alt="Hero Student"
+              className='relative z-20 w-[300px] sm:w-[380px] md:w-[420px] translate-x-6 sm:translate-x-10 translate-y-6 sm:translate-y-8 object-contain drop-shadow-2xl'
+            />
+
+            {/* Learning Progress Frame 55% */}
+            <img
+              src={learningProgressFrame}
+              alt="Learning Progress 55%"
+              className='absolute right-0 sm:right-6 bottom-10 sm:bottom-16 z-30 w-40 sm:w-52 shadow-xl rounded-2xl pointer-events-none select-none'
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default ProfessionalGrowthSection
