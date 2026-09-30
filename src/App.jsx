@@ -8,19 +8,22 @@ import ProfessionalGrowthSection from './components/ProfessionalGrowthSection'
 import CreateCoursesSection from './components/CreateCoursesSection'
 import ReviewsSection from './components/ReviewsSection'
 import CtaSection from './components/CtaSection'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
-    {/* <Navbar /> */}
-    <Hero />
-    <CourseSection />
-    <LearningPathsSection />
-    <ProfessionalGrowthSection />
-    <CreateCoursesSection />
-    <ReviewsSection />
-    <CtaSection />
+      {/* <Navbar /> */}
+      <Hero />
+      <CourseSection />
+      <LearningPathsSection />
+      <ProfessionalGrowthSection />
+      <CreateCoursesSection />
+      <CtaSection />
+      <ReviewsSection />
+
+      <Footer />
     </>
   )
 }
