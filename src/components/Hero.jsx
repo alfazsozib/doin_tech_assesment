@@ -6,7 +6,7 @@ import bigLimeCircle from '../assets/icons/big-lime-circle.png'
 import learningProgramFrame from '../assets/images/learning-program-frame.png'
 import yearToDate from '../assets/images/YearToDate.png'
 import happyStudentsFrame from '../assets/images/happy-students-frame.png'
-import searchIcon from '../assets/icons/Style=Outlined.png'
+import searchIcon from '../assets/icons/search_icon.png'
 import ui_uxCard from "../assets/images/ui_ux_card.png"
 
 import limeLeft from '../assets/icons/lime-left.png'
@@ -35,11 +35,11 @@ function Hero() {
       >
         <img src={limeLeft} alt="" className='absolute top-6 left-4 w-28 md:w-36 pointer-events-none select-none z-10' />
         <img src={whiteSpine} alt="" className='absolute top-[28%] left-12 md:left-24 w-12 md:w-16 pointer-events-none select-none z-10' />
-        <img src={circleShape} alt="" className='absolute bottom-16 left-6 md:left-14 w-20 md:w-28 pointer-events-none select-none z-10' />
+        <img src={circleShape} alt="" className='absolute top-130 left-16 md:left-[280px] w-20 md:w-[344px] pointer-events-none select-none z-50' />
 
         <img src={limeCone} alt="" className='absolute top-8 right-6 md:right-12 w-28 md:w-36 pointer-events-none select-none z-10' />
         <img src={whiteCone} alt="" className='absolute top-[28%] right-16 md:right-28 w-12 md:w-16 pointer-events-none select-none z-10' />
-        <img src={whiteSpine2} alt="" className='absolute bottom-16 right-8 md:right-16 w-20 md:w-24 pointer-events-none select-none z-10' />
+        <img src={whiteSpine2} alt="" className='absolute bottom-8 right-8 md:right-75 w-20 md:w-[300px] -rotate-12 pointer-events-none select-none z-50' />
 
         <Navbar />
 
@@ -67,7 +67,7 @@ function Hero() {
             </button>
           </div>
 
-          <div className='relative max-w-3xl mx-auto mt-14 flex justify-center items-end min-h-[420px] sm:min-h-[500px] pb-0'>
+          <div className='relative max-w-3xl mx-auto -mt-20 flex justify-center items-end min-h-[420px] sm:min-h-[500px] pb-0'>
             <div className='absolute bottom-[-780px] left-1/2 -translate-x-1/2 w-[1149px] h-[1149px] rounded-full border-[320px] border-[#CBFC01] pointer-events-none select-none z-0'></div>
             <div className='absolute bottom-[-620px] left-1/2 -translate-x-1/2 w-[678px] h-[678px] rounded-full border-[320px] border-primary-blue pointer-events-none select-none z-10'></div>
             <div className='relative z-10 flex justify-center items-end'>
