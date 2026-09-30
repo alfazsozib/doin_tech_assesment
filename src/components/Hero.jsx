@@ -43,7 +43,7 @@ function Hero() {
 
         <Navbar />
 
-        <div className='container relative z-20 pt-8 pb-4 text-center'>
+        <div className='container relative z-20 pt-8 pb-0 text-center'>
           <div className='max-w-3xl mx-auto px-4'>
             <h1 className='text-text-heading font-heading text-4xl sm:text-5xl md:text-[64px] font-semibold leading-[1.15] tracking-tight'>
               Get Access to Hundreds Courses Available
@@ -67,32 +67,32 @@ function Hero() {
             </button>
           </div>
 
-          <div className='relative max-w-3xl mx-auto mt-12 flex justify-center items-end min-h-[380px] sm:min-h-[460px]'>
-            <div className='absolute bottom-[-900px] w-[1149px] h-[1149px] rounded-full border-[320px] border-[#CBFC01] pointer-events-none select-none z-0'></div>
-            <div className='absolute bottom-[-760px] w-[814px] h-[814px] rounded-full border-[320px] border-primary-blue pointer-events-none select-none z-10'></div>
+          <div className='relative max-w-3xl mx-auto mt-14 flex justify-center items-end min-h-[420px] sm:min-h-[500px] pb-0'>
+            <div className='absolute bottom-[-780px] left-1/2 -translate-x-1/2 w-[1149px] h-[1149px] rounded-full border-[320px] border-[#CBFC01] pointer-events-none select-none z-0'></div>
+            <div className='absolute bottom-[-620px] left-1/2 -translate-x-1/2 w-[678px] h-[678px] rounded-full border-[320px] border-primary-blue pointer-events-none select-none z-10'></div>
             <div className='relative z-10 flex justify-center items-end'>
               <img
                 src={heroMan}
                 alt="Student"
-                className='w-[380px] sm:w-[480px]'
+                className='w-[425px] sm:w-[540px] md:w-[600px] block align-bottom translate-x-6 sm:translate-x-6'
               />
 
               <img
                 src={ui_uxCard}
                 alt="UI UX Design"
-                className='absolute top-2 -left-10 sm:-left-24 z-20 w-36 sm:w-48 shadow-lg rounded-xl pointer-events-none'
+                className='absolute top-25 left-[250px] sm:left-0 z-20 w-36 sm:w-48 shadow-lg rounded-xl pointer-events-none'
               />
 
               <img
                 src={learningProgramFrame}
                 alt="Winning Rate 55%"
-                className='absolute top-6 -right-10 sm:-right-20 z-20 w-36 sm:w-48 shadow-lg rounded-xl pointer-events-none'
+                className='absolute top-16 -right-50 sm:-right-44 z-20 w-40 sm:w-54 shadow-lg rounded-xl pointer-events-none'
               />
 
               <img
                 src={happyStudentsFrame}
                 alt="Happy Students"
-                className='absolute bottom-10 -left-14 sm:-left-28 z-20 w-40 sm:w-52 shadow-lg rounded-xl pointer-events-none'
+                className='absolute bottom-16 -left-10 sm:-left-14 z-20 w-44 sm:w-56 shadow-lg rounded-xl pointer-events-none'
               />
             </div>
           </div>
