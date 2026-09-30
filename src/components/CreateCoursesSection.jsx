@@ -26,9 +26,9 @@ function CreateCoursesSection() {
 
       {/* Bottom Left Lime Radial Glow */}
       <div
-        className='absolute -bottom-20 left-0 translate-y-1/3 -translate-x-1/3 w-[600px] sm:w-[900px] h-[600px] sm:h-[900px] rounded-full pointer-events-none select-none z-0'
+        className='absolute -bottom-30 -left-30 translate-y-1/3 -translate-x-1/3 w-[600px] sm:w-[900px] h-[600px] sm:h-[900px] rounded-full pointer-events-none select-none z-0'
         style={{
-          background: 'radial-gradient(circle at 50% 50%, rgba(202, 252, 1, 0.57) 0%, rgba(203, 252, 1, 0.23) 53%, rgba(203, 252, 1, 0.06) 75%, rgba(203, 252, 1, 0) 100%)'
+          background: 'radial-gradient(circle at 50% 50%, rgba(202, 252, 1, 0.79) 0%, rgba(202, 252, 1, 0.16) 53%, rgba(203, 252, 1, 0.06) 75%, rgba(203, 252, 1, 0) 100%)'
         }}
       />
 
