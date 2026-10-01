@@ -1,21 +1,66 @@
-# React + Vite
+# [Project Name] - Landing Page
+# [Live Link] - 
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive landing page built with React, Vite, and Tailwind CSS, created from a provided design.
 
-Currently, two official plugins are available:
+**Live Demo:** [https://doin-tech-assesment.vercel.app/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Fully responsive layout for mobile, tablet, and desktop
+- Reusable components (Navbar, Hero, Button, Footer, etc.)
+- Clean, consistent styling with Tailwind CSS
+- Login and Signup pages (bonus)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Tech Stack
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+- **React**: UI components
+- **Vite**: fast development and build tool
+- **Tailwind CSS**: utility-first styling
+- **Vercel**: deployment
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project
+1. Clone the repository
+```bash
+   git clone [your repo link]
+   cd [project-folder]
+```
 
-## pull request created
+2. Install dependencies
+```bash
+   npm install
+```
+
+3. Start the development server
+```bash
+   npm run dev
+```
+
+4. Open `http://localhost:5173` in your browser.
+
+## Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+## Project Structure
+
+```
+src/
+├── components/   # Reusable UI components
+├── pages/        # Landing, Login, Signup pages
+├── assets/       # Images and icons
+├── App.jsx
+└── main.jsx
+```
+
+## Git Workflow
+
+Development was done on the `alfaz` branch and merged into `main` through a Pull Request.
+
+## Author
+
+Md. Alfaz Hosain - https://github.com/alfazsozib/doin_tech_assesment
