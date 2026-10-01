@@ -124,11 +124,11 @@ function CourseSection() {
       <div className='container'>
         {/* Section Header */}
         <div className='text-center max-w-3xl mx-auto px-4 mb-10'>
-          <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold font-heading text-black tracking-tight leading-tight'>
+          <h2 className='text-3xl sm:text-4xl md:text-[44px] font-semibold font-heading text-black tracking-tight leading-tight'>
             Discover Your Passion, <br className='hidden sm:inline' />
             Build Your Skills
           </h2>
-          <p className='font-satoshi text-gray-500 text-sm sm:text-base mt-4 max-w-2xl mx-auto leading-relaxed'>
+          <p className='font-satoshi text-[#82868E] text-sm sm:text-base mt-4 max-w-3xl mx-auto leading-relaxed'>
             At Bytespace Courses, we bring you closer to life-changing knowledge. Explore a variety of courses across different fields, from technology to the arts, and make a difference in your career and life.
           </p>
         </div>

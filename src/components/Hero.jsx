@@ -33,7 +33,7 @@ function Hero() {
           backgroundSize: '64px 64px'
         }}
       >
-        <img src={limeLeft} alt="" className='absolute top-36 -left-20 w-28 md:w-[386px] lg:w-[300px] pointer-events-none select-none z-10' />
+        <img src={limeLeft} alt="" className='absolute top-36 rotate-5 -left-10 w-28 md:w-[386px] lg:w-[300px] pointer-events-none select-none z-10' />
         <img src={limeCone} alt="" className='absolute top-40 -right-10 w-28 md:w-[150px] lg:w-[180px] pointer-events-none select-none z-10' />
 
         <div className='max-w-[1440px] mx-auto relative'>
@@ -54,19 +54,23 @@ function Hero() {
               </p>
             </div>
 
-            <div className='mt-8 max-w-md mx-auto relative flex items-center bg-white rounded-full p-1.5 shadow-md'>
-              <div className='pl-4 flex items-center gap-3 flex-1'>
-                <img src={searchIcon} alt="search" className='w-4 h-4 opacity-60' />
+            <div className='mt-8 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 relative z-30 px-4'>
+              <div className='flex w-full sm:w-[461px] h-[52px] px-[24px] py-[12px] items-center gap-[8px] rounded-[24px] bg-white'>
+                <img src={searchIcon} alt="search" className='w-5 h-5 opacity-60 shrink-0' />
                 <input
                   type="text"
-                  placeholder="Search for courses..."
-                  className='w-full outline-none text-black font-satoshi text-sm bg-transparent placeholder:text-gray-400'
+                  placeholder="Course, topic, creator"
+                  className='w-full outline-none text-black font-satoshi text-base bg-transparent placeholder:text-[#9CA3AF]'
                 />
               </div>
-              <button className='bg-lime text-black font-satoshi font-semibold px-6 py-2.5 rounded-full text-sm hover:opacity-90 transition-opacity cursor-pointer'>
+              <button
+                type="button"
+                className='flex h-[52px] px-[24px] py-[12px] justify-center items-center gap-[8px] rounded-[24px] bg-lime text-black font-satoshi font-medium text-base hover:opacity-90 transition-opacity cursor-pointer'
+              >
                 Search
               </button>
             </div>
+
 
             <div className='relative max-w-3xl mx-auto -mt-20 flex justify-center items-end min-h-[400px] sm:min-h-[500px] pb-0'>
               <div className='absolute bottom-[-800px] left-1/2 -translate-x-1/2 w-[1149px] h-[1149px] rounded-full border-[320px] border-[#CBFC01] pointer-events-none select-none z-0'></div>

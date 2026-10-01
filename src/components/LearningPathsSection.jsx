@@ -22,11 +22,11 @@ function LearningPathsSection() {
     <section className='w-full py-14 sm:py-20 bg-white border-t border-gray-100'>
       <div className='container'>
         {/* Section Header */}
-        <div className='text-center max-w-4xl mx-auto px-4 mb-12 sm:mb-16'>
-          <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold font-heading text-black tracking-tight leading-tight mb-4'>
+        <div className='text-center max-w-6xl mx-auto px-4 mb-12 sm:mb-16'>
+          <h2 className='text-3xl sm:text-4xl md:text-[36px] font-semibold font-heading text-black tracking-tight leading-tight mb-4'>
             Explore Diverse Learning Paths at Bytespace
           </h2>
-          <p className='font-satoshi text-gray-500 text-sm sm:text-base max-w-3xl mx-auto leading-relaxed'>
+          <p className='font-satoshi text-[#82868E] text-sm sm:text-base max-w-4xl mx-auto leading-relaxed'>
             At Bytespace, we believe in empowering individuals through knowledge. Our diverse range of courses spans various fields, ensuring there's something for everyone. Unleash your potential and explore our carefully curated categories.
           </p>
         </div>
