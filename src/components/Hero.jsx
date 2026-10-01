@@ -33,24 +33,23 @@ function Hero() {
           backgroundSize: '64px 64px'
         }}
       >
-        <img src={limeLeft} alt="" className='absolute top-50 left-0 w-28 md:w-[150px] lg:w-[250px] pointer-events-none select-none z-10' />
-        <img src={limeCone} alt="" className='absolute top-50 right-0 w-28 md:w-[150px] lg:w-[250px] pointer-events-none select-none z-10' />
+        <img src={limeLeft} alt="" className='absolute top-36 -left-20 w-28 md:w-[386px] lg:w-[300px] pointer-events-none select-none z-10' />
+        <img src={limeCone} alt="" className='absolute top-40 -right-10 w-28 md:w-[150px] lg:w-[180px] pointer-events-none select-none z-10' />
 
         <div className='max-w-[1440px] mx-auto relative'>
-          <img src={whiteSpine} alt="" className='absolute top-[28%] left-1/2 -translate-x-[580px] w-12 md:w-16 pointer-events-none select-none z-10' />
+          <img src={whiteSpine} alt="" className='absolute top-[40%] left-1/2 -translate-x-[500px] w-12 md:w-[188px] pointer-events-none select-none z-10' />
           <img src={circleShape} alt="" className='absolute top-130 left-1/2 -translate-x-[670px] w-20 md:w-[344px] pointer-events-none select-none z-50' />
 
-          <img src={whiteCone} alt="" className='absolute top-[28%] left-1/2 translate-x-[520px] w-12 md:w-16 pointer-events-none select-none z-10' />
-          <img src={whiteSpine2} alt="" className='absolute bottom-8 left-1/2 translate-x-[360px] w-20 md:w-[300px] -rotate-12 pointer-events-none select-none z-50' />
-
+          <img src={whiteCone} alt="" className='absolute top-[40%] left-1/2 translate-x-[300px] w-52 md:w-[188px] pointer-events-none select-none z-10' />
+          <img src={whiteSpine2} alt="" className='absolute bottom-0 left-1/2 translate-x-[440px] md:translate-x-[365px] w-20 md:w-[300px] -rotate-10 pointer-events-none select-none z-50' />
           <Navbar />
 
           <div className='container relative z-20 pt-8 pb-0 text-center'>
-            <div className='max-w-3xl mx-auto px-4'>
-              <h1 className='text-text-heading font-heading text-4xl sm:text-5xl md:text-[64px] font-semibold leading-[1.15] tracking-tight'>
+            <div className='max-w-5xl mx-auto px-4'>
+              <h1 className='text-text-heading font-heading text-4xl sm:text-5xl md:text-[72px] font-semibold leading-[1.15] tracking-tight'>
                 Get Access to Hundreds Courses Available
               </h1>
-              <p className='font-satoshi text-text-body text-base sm:text-lg mt-4 max-w-xl mx-auto opacity-90 font-normal'>
+              <p className='font-satoshi text-text-body text-[18px] mt-4 max-w-5xl mx-auto opacity-90 font-normal lg:whitespace-nowrap'>
                 Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses.
               </p>
             </div>
@@ -69,14 +68,14 @@ function Hero() {
               </button>
             </div>
 
-            <div className='relative max-w-3xl mx-auto -mt-20 flex justify-center items-end min-h-[420px] sm:min-h-[500px] pb-0'>
-              <div className='absolute bottom-[-780px] left-1/2 -translate-x-1/2 w-[1149px] h-[1149px] rounded-full border-[320px] border-[#CBFC01] pointer-events-none select-none z-0'></div>
+            <div className='relative max-w-3xl mx-auto -mt-20 flex justify-center items-end min-h-[400px] sm:min-h-[500px] pb-0'>
+              <div className='absolute bottom-[-800px] left-1/2 -translate-x-1/2 w-[1149px] h-[1149px] rounded-full border-[320px] border-[#CBFC01] pointer-events-none select-none z-0'></div>
               <div className='absolute bottom-[-620px] left-1/2 -translate-x-1/2 w-[678px] h-[678px] rounded-full border-[320px] border-primary-blue pointer-events-none select-none z-10'></div>
               <div className='relative z-10 flex justify-center items-end'>
                 <img
                   src={heroMan}
                   alt="Student"
-                  className='w-[425px] sm:w-[540px] md:w-[600px] block align-bottom translate-x-6 sm:translate-x-6'
+                  className='w-[425px] sm:w-[540px] md:w-[578px] block align-bottom translate-x-6 sm:translate-x-6'
                 />
 
                 <img
@@ -102,7 +101,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className='bg-white py-8 border-b border-gray-100'>
+      <div className='bg-[#F5F5F6] py-12 border-b border-gray-100'>
         <div className='container flex flex-wrap items-center justify-center sm:justify-between gap-6 md:gap-10 px-6'>
           <img src={logo1} alt="Logo 1" className='h-6 sm:h-7 object-contain opacity-70 hover:opacity-100 transition-opacity' />
           <img src={logo2} alt="Logo 2" className='h-6 sm:h-7 object-contain opacity-70 hover:opacity-100 transition-opacity' />
@@ -111,7 +110,7 @@ function Hero() {
           <img src={logo5} alt="Logo 5" className='h-6 sm:h-7 object-contain opacity-70 hover:opacity-100 transition-opacity' />
         </div>
       </div>
-    </section>
+    </section >
   )
 }
 

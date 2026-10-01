@@ -49,19 +49,21 @@ function CreateCoursesSection() {
               className='absolute left-2 sm:left-8 top-36 sm:top-44 z-10 w-44 sm:w-24 shadow-lg rounded-2xl pointer-events-none select-none'
             />
 
-            <img
-              src={imageGirl}
-              alt="Course Creator"
-              className='relative z-20 w-[310px] sm:w-[440px] md:w-[470px] translate-x-4 sm:translate-x-8 object-contain drop-shadow-2xl'
-            />
+            {/* Main Girl Image with Lime Spine anchored relative to it */}
+            <div className='relative z-20 inline-block'>
+              <img
+                src={imageGirl}
+                alt="Course Creator"
+                className='w-[310px] sm:w-[440px] md:w-[470px] translate-x-8 sm:translate-x-8 object-contain drop-shadow-2xl'
+              />
 
-            {/* Lime Spine Shape */}
-            <img
-              src={limeSpineShape}
-              alt="Lime Spine"
-              className='absolute -right-40 sm:right-26 top-18 sm:top-14 z-50 w-16 sm:w-[216px] rotate-38 pointer-events-none select-none animate-pulse'
-            />
-
+              {/* Lime Spine Shape - Anchored directly to Girl image so it doesn't drift on big monitors */}
+              <img
+                src={limeSpineShape}
+                alt="Lime Spine"
+                className='absolute -right-6 sm:-right-4 top-10 sm:top-14 z-50 w-16 sm:w-[216px] rotate-38 pointer-events-none'
+              />
+            </div>
 
             {/* Happy Students Overlay Card (Bottom Right) */}
             <img
@@ -73,12 +75,12 @@ function CreateCoursesSection() {
 
           {/* Right Column: Title, Description & Checklist */}
           <div className='max-w-xl mx-auto lg:mx-0 pl-0 lg:pl-6'>
-            <h2 className='text-3xl sm:text-4xl md:text-[46px] font-bold font-heading text-black tracking-tight leading-[1.2] mb-6'>
+            <h2 className='text-3xl sm:text-4xl md:text-[44px] font-normal font-heading text-black tracking-tight leading-[1.2] mb-6'>
               Create & Manage <br className='hidden sm:inline' />
               Courses Easily.
             </h2>
 
-            <p className='font-satoshi text-gray-500 text-sm sm:text-base leading-relaxed mb-8 max-w-lg'>
+            <p className='font-satoshi text-gray-500 text-base sm:text-[18px] leading-relaxed mb-8 max-w-lg'>
               <span className='font-semibold text-gray-900'>ByteSpace</span> supports individuals or entities in the creation, publication, and administration of educational courses.
             </p>
 
@@ -91,7 +93,7 @@ function CreateCoursesSection() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className='font-satoshi font-medium text-gray-900 text-sm sm:text-base'>
+                  <span className='font-satoshi font-medium text-gray-900 text-base sm:text-[18px]'>
                     {item}
                   </span>
                 </div>
