@@ -1,5 +1,11 @@
 import React, { useState } from 'react'
 import CourseCard from './CourseCard'
+import course1 from "../assets/images/c1.png"
+import course2 from "../assets/images/c2.png"
+import course3 from "../assets/images/c3.png"
+import course4 from "../assets/images/c4.png"
+import course5 from "../assets/images/c5.png"
+import course6 from "../assets/images/c6.png"
 
 function CourseSection() {
   const [activeCategory, setActiveCategory] = useState('Featured')
@@ -39,7 +45,7 @@ function CourseSection() {
       price: '$25',
       period: '/lifetime',
       enrolledCount: '26+',
-      image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=800&q=80'
+      image: course1
     },
     {
       id: 2,
@@ -53,7 +59,7 @@ function CourseSection() {
       price: '$25',
       period: '/lifetime',
       enrolledCount: '26+',
-      image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80'
+      image: course2
     },
     {
       id: 3,
@@ -67,7 +73,7 @@ function CourseSection() {
       price: '$25',
       period: '/lifetime',
       enrolledCount: '26+',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80'
+      image: course3
     },
     {
       id: 4,
@@ -81,7 +87,7 @@ function CourseSection() {
       price: '$25',
       period: '/lifetime',
       enrolledCount: '26+',
-      image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=80'
+      image: course4
     },
     {
       id: 5,
@@ -95,7 +101,7 @@ function CourseSection() {
       price: '$25',
       period: '/lifetime',
       enrolledCount: '26+',
-      image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80'
+      image: course5
     },
     {
       id: 6,
@@ -109,7 +115,7 @@ function CourseSection() {
       price: '$25',
       period: '/lifetime',
       enrolledCount: '26+',
-      image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80'
+      image: course6
     }
   ]
 

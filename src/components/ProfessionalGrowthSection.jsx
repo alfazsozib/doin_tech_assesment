@@ -94,7 +94,7 @@ function ProfessionalGrowthSection() {
             <img
               src={limeSpineShape}
               alt="Lime Spine"
-              className='absolute -right-48 sm:-right-6 top-24 sm:top-42 z-50 w-16 sm:w-[216px] pointer-events-none select-none animate-pulse'
+              className='absolute -right-48 sm:-right-6 top-24 sm:top-42 z-50 w-16 sm:w-[216px] pointer-events-none select-none'
             />
 
             {/* Hero Man Image with Headphones & Laptop */}

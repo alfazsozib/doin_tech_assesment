@@ -4,6 +4,8 @@ import avatar1 from '../assets/images/Ellipse.png'
 import avatar2 from '../assets/images/Ellipse (1).png'
 import avatar3 from '../assets/images/Ellipse (2).png'
 import avatar4 from '../assets/images/Ellipse (3).png'
+import levelIcon from "../assets/icons/Vector.png"
+
 
 function CourseCard({ course }) {
   const {
@@ -60,9 +62,7 @@ function CourseCard({ course }) {
         {/* Level Badge & Enrolled Avatars */}
         <div className='flex items-center gap-4 mt-3'>
           <div className='flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#F3F4F6] text-xs font-medium text-gray-700'>
-            <svg className="w-3.5 h-3.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-            </svg>
+            <img src={levelIcon} alt="level icon" />
             <span>{level}</span>
           </div>
 
