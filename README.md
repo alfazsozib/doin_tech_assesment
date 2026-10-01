@@ -1,9 +1,9 @@
 # [Project Name] - Landing Page
-# [Live Link] - https://doin-tech-assesment.vercel.app/
+# [Live Link] - 
 
 A responsive landing page built with React, Vite, and Tailwind CSS, created from a provided design.
 
-**Live Demo:** [your Vercel link]
+**Live Demo:** [https://doin-tech-assesment.vercel.app/]
 
 ## Features
 
